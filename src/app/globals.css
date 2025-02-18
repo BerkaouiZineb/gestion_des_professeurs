@@ -1,0 +1,198 @@
+
+/* Appliquer un style général */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Titre principal */
+.title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Carte de connexion */
+.login-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des champs */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Bouton principal */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Lien d'inscription */
+.register-link {
+  margin-top: 15px;
+}
+
+.btn-outline {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Message d'erreur */
+.error-message {
+  color: red;
+  background: #ffecec;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+
+/* Appliquer un style général */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding-top: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Titre principal */
+.title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Carte avec informations */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Bouton principal */
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Message d'erreur */
+.error-message {
+  color: red;
+  background: #ffecec;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+/* Style global du header */
+/* Style du header */
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 1000; 
+}
+
+/* Liens dans le header */
+header a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  padding: 10px 20px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  text-decoration: none; /* S'assurer que le texte n'est pas souligné par défaut */
+}
+
+/* Changement de couleur au survol */
+header a:hover {
+  color: #007bff;
+  text-decoration: underline; /* Souligner au survol */
+}
+
+/* Espacement entre les liens */
+header .link-group {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+}
+
+
